@@ -22,6 +22,12 @@ Data-Lake-Project/
 ├── analytics_visualization.py - Script for analytics and visualization (to be implemented)
 └── README.md                 - Project documentation
 
+
+
+You can view the structured directory here 
+![{6B8D2F44-4438-47C6-BDD7-D735A234A5FE}](https://github.com/user-attachments/assets/206be39c-427b-4593-bf77-d910fe45f2c8)
+
+
 🌊 Data Lake Layers
 --------------------
 Each layer of the data lake stores progressively processed versions of the dataset:
