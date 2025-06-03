@@ -8,22 +8,19 @@ This project demonstrates the implementation of a multi-layered data lake archit
 📁 Project Structure
 --------------------
 Data-Lake-Project/
-│
-├── data/                        # Source data
-│   └── sample.json
-│
-├── data_lake/                  # Data Lake structure
-│   ├── raw/
-│   ├── refined/
-│   ├── curated/
-│   ├── enriched/
-│   ├── transformed/
-│   │   └── sample.csv
-│   └── visualizations/         # Generated charts
-│
-├── main.py                 # Main data pipeline script
-├── analytics_visualization.py # Analytics and visualization script
-└── README.txt                  # Project documentation
+├── data/
+│   ├── sample.json           - Sample JSON file (may contain CSV data)
+│   └── sample.csv            - Sample CSV file
+├── data_lake/
+│   ├── raw/                  - Raw layer: Initial ingested data
+│   ├── refined/              - Refined layer: Cleaned data
+│   ├── curated/              - Curated layer: Standardized data
+│   ├── enriched/             - Enriched layer: Enhanced data with new features
+│   └── transformed/          - Transformed layer: Aggregated and summarized data
+├── visualizations/           - Directory for generated charts (currently empty)
+├── main.py                   - Main pipeline script for data processing
+├── analytics_visualization.py - Script for analytics and visualization (to be implemented)
+└── README.md                 - Project documentation
 
 🌊 Data Lake Layers
 --------------------
